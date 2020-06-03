@@ -1,0 +1,27 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "allowJs": true,
+        "sourceMap": true,
+        "lib": ["ESNext.AsyncIterable", "ES2019", "ES2017", "ES6"],
+        "module": "commonjs",
+        "target": "ES2019",
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "outDir": "./build"
+    },
+    "exclude": [
+        "node_modules",
+        "./_optimize",
+        "./serverless",
+        "./webpack",
+        "./jest.config.js",
+        "./webpack.config.js",
+        "./eslintrc.json",
+        "./test/**.test.*",
+        "./test/*.ts",
+        "./build/*.js",
+        "./build/**/*.js"
+    ]
+}

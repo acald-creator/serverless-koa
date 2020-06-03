@@ -1,0 +1,6 @@
+node_modules/
+
+_optimize
+.build
+.serverless
+.webpack
